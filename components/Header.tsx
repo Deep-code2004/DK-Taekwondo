@@ -84,9 +84,9 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage, isScrolled
             className="text-2xl font-bold text-white cursor-pointer flex items-center gap-2"
             onClick={() => setCurrentPage(Page.Home)}
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-red-500" viewBox="0 0 20 20" fill="currentColor">
+            {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-red-500" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 5a1 1 0 100 2h6a1 1 0 100-2H7zM7 9a1 1 0 000 2h2a1 1 0 100-2H7zm4 0a1 1 0 100 2h2a1 1 0 100-2h-2zm-4 4a1 1 0 100 2h2a1 1 0 100-2H7zm4 0a1 1 0 100 2h2a1 1 0 100-2h-2z" clipRule="evenodd" />
-            </svg>
+            </svg> */}
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-slate-200 to-red-400">
               TKD Academy
             </span>
